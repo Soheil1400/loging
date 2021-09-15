@@ -37,3 +37,60 @@ body{
     box-shadow: 0 1px 1px grey;
     font-size: 2rem
 }
+.forget{
+    text-align: right
+}
+.forget a{
+    color: grey;
+    font-size: 1.5rem;
+}
+.sign{
+    text-align: center;
+    margin-top: 2rem;
+}
+.sign button{
+    border-radius: 2rem;
+    font-size: 2rem;
+    width: 25rem;
+    background-color: #696969;
+    border: none;
+}
+.or{
+    text-align: center;
+    margin-top: 5rem;
+}
+.or span div{
+    width: 80px;
+    height: 1px;
+    background-color: #ECECEC;
+    display: inline-block;
+    vertical-align: middle;
+}
+.or span span{
+    color: gray;
+    margin: 0 3px;
+}
+.sig-google{
+    text-align: center;
+    margin-top: 5rem;
+}
+.sig-google button{
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    color: black;
+}
+.sig-google button img{
+    width: 3rem;
+    vertical-align: middle;
+    margin: 0.5rem;
+}
+.new-acc{
+    text-align: center;
+    margin-top: 5rem;
+}
+.new-acc a{
+    color: grey;
+}
