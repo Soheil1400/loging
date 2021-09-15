@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img log";
+}
+.img{
+    grid-area: img;
+    background: url("../img/2d46f182567821.5f3d3dc8923e0.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.log{
+    grid-area: log;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0 3rem;
+}
+.log form fieldset h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.log form input{
+    width: 400px;
+    border: none;
+    box-shadow: 0 1px 1px grey;
+    font-size: 2rem
+}
